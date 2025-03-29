@@ -65,7 +65,7 @@ export function LoansTable({ loans }: { loans: any[] }) {
   return (
     <main className="flex-1 overflow-auto p-4">
       {/* Tabs */}
-      <div className="mb-4 overflow-x-auto">
+      <div className="mb-4 overflow-x-auto scrollbar-hide">
         <div className="flex gap-2 min-w-[800px]">
           {tabs.map((tab) => (
             <button
